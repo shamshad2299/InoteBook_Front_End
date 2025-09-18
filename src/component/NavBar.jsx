@@ -209,7 +209,7 @@ function NavBar() {
                 <>
                   <li className="mt-2 lg:mt-0 lg:ml-2">
                     <Link
-                      className={`flex items-center gap-2 px-4 py-2 rounded-lg border border-white/20 bg-white/15 lg:bg-gradient-to-r lg:from-purple-600 lg:to-indigo-600 text-white justify-center transition-all hover:bg-white/25 lg:hover:shadow-md`}
+                      className={`flex items-center gap-2 px-4 py-2 rounded-lg border border-white/20 bg-gradient-to-r from-white/20 to-white/10 lg:from-white/20 lg:to-white/10 text-teal-500justify-center transition-all hover:from-white/25 hover:to-white/15 lg:hover:shadow-md`}
                       to="/signup"
                       onClick={closeAllMenus}
                     >
@@ -219,7 +219,7 @@ function NavBar() {
                   </li>
                   <li className="mt-2 lg:mt-0 lg:ml-2">
                     <Link
-                      className={`flex items-center gap-2 px-4 py-2 rounded-lg border border-white/20 bg-gradient-to-r from-white/20 to-white/10 lg:from-white/20 lg:to-white/10 text-white justify-center transition-all hover:from-white/25 hover:to-white/15 lg:hover:shadow-md`}
+                      className={`flex items-center gap-2 px-4 py-2 rounded-lg border border-white/20 bg-gradient-to-r from-white/20 to-white/10 lg:from-white/20 lg:to-white/10 text-teal-500justify-center transition-all hover:from-white/25 hover:to-white/15 lg:hover:shadow-md`}
                       to="/login"
                       onClick={closeAllMenus}
                     >
