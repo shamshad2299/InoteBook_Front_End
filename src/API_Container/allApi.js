@@ -1,11 +1,11 @@
-const url = "http://localhost:5000"
+const url = "https://inote-book-backend-chi.vercel.app"
 
 export const allAPI ={
    Signup : {
-  url : `${url}/api/auth/createuser`
+  url : `${url}/api/user/createuser`
 },
 Login : {
-  url : `${url}/api/auth/login`
+  url : `${url}/api/user/login`
 },
 addNote : {
   url : `${url}/api/note`
